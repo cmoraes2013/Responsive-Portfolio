@@ -3,9 +3,15 @@
 }
 
 .card-body{
-    width: 550px;
+    width: 600px;
     overflow: hidden;
 }
+
+.my-name{
+    color: white;
+    size: 25px;
+}
+
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,8 +20,7 @@ body{
 
 .heading{
     margin: auto;
-    color: darkgray ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgray;
 }
 
 nav{
@@ -24,12 +29,24 @@ nav{
 
 .pic{
     width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p{
  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+ }
 
-.card-text{
-    float:right;
-}
+ footer{
+        width: 100%;
+        height: 70px;
+        background-color: #666666;
+        border-top:solid 8px #4aaaa5;
+        text-align: center;
+        padding-top: 50px;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        color: white;
+        font-size: 10px;
+ }
