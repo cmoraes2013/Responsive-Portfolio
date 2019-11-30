@@ -1,0 +1,35 @@
+.card{
+    margin: auto;
+}
+
+.card-body{
+    width: 550px;
+    overflow: hidden;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/ripples.png");
+}
+
+.heading{
+    margin: auto;
+    color: darkgray ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pic{
+    width: 250px;
+}
+
+p{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-text{
+    float:right;
+}
