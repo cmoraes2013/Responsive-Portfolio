@@ -5,6 +5,7 @@
 .card-body{
     width: 600px;
     overflow: hidden;
+    border: black;
 }
 
 .my-name{
@@ -19,12 +20,23 @@ body{
 }
 
 .heading{
-    margin: auto;
-    color: darkgray;
+    color:teal;
+    padding: 15px 15px 5px 20px;
+    margin-bottom: 0;
+    font-size: 30px;
 }
 
 nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+section{
+    margin-top: 20px;
 }
 
 .pic{
@@ -57,12 +69,14 @@ p{
      margin-top: 20px;
      padding: 20px;
      background-color: white;
-     border: solid 1px darkgrey;
-     
+     border: solid 1px lightgray;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-bottom: 45px;
  }
 
  h2{
      color: teal;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  .button{
@@ -72,4 +86,55 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     padding: 10px 15px 10px 15px;    
+}
+
+.portCont{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    border:darkgray solid 1px;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h3{
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 15px 0px 10px;
+}
+
+.col{
+    padding: 30px 30px 10px 15px;
+}
+
+.row{
+    padding-left: 5px;
+}
+
+.banner{
+    background-color: teal;
+    width: 275px;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.banner2{
+    background-color: teal;
+    width: 260px;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.banner3{
+    background-color: teal;
+    width: 300px;
+    position: relative;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
