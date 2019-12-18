@@ -39,6 +39,11 @@ section{
     margin-top: 20px;
 }
 
+img{
+    width:250px;
+    height: 250px;
+}
+
 .pic{
     width: 250px;
     margin-left: auto;
@@ -114,7 +119,7 @@ h3{
 
 .banner{
     background-color: teal;
-    width: 275px;
+    width: 250px;
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -123,7 +128,7 @@ h3{
 
 .banner2{
     background-color: teal;
-    width: 260px;
+    width: 250px;
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -132,9 +137,14 @@ h3{
 
 .banner3{
     background-color: teal;
-    width: 300px;
+    width: 250px;
     position: relative;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+.appBtn{
+    background-color: teal;
+    color: white;
 }
